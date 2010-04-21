@@ -8,7 +8,7 @@ $remove = array(
     'theme_pager_last',
     'theme_pager_previous',
     'theme_pager_next',
-    'theme_pager_link'
+    'theme_pager_link',
     'pager_load_array',
   ),
 );
@@ -35,7 +35,7 @@ foreach ($remove['functions'] as $function) {
   }
 }
 
-if (!empty($move)) {
-  // Remove code from source file.
-  file_put_contents('dbtng/includes/pager.inc', $content);  
-}
+
+// Remove code from source file.
+file_put_contents('dbtng/includes/pager.inc', $content);  
+
