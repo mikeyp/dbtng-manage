@@ -20,7 +20,8 @@ $merge_rename = array(
     'db_create_table',
     'db_field_names',
     'db_table_exists',
-    'db_column_exists',
+    'db_field_exists',
+    'db_index_exists',
     'db_find_tables',
     '_db_create_keys_sql',
     'db_type_map',
@@ -51,6 +52,12 @@ $copy = array(
     'db_select',
     'db_transaction',
     'db_close',
+    'db_like',
+    'db_next_id',
+    'db_or',
+    'db_and',
+    'db_xor',
+    'db_condition',
   ),
 );
 
